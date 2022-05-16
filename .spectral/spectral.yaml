@@ -20,4 +20,4 @@ projects:
         tags:
           - warning
           - info
-        ids: [AUDIT006]
+        ids: [AUDIT005]
