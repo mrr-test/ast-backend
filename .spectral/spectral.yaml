@@ -1,7 +1,7 @@
 match_ignores:
   ignores:
     - path: pkg/*
-    - rule_id: AUDIT005
+    - rule_id: AUDIT006
 
 projects:
   sample:
@@ -21,4 +21,4 @@ projects:
         tags:
           - warning
           - info
-        ids: [AUDIT005]
+        ids: [AUDIT006]
