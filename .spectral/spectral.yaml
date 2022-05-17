@@ -4,3 +4,10 @@ match_ignores:
 #    - rule_id: AUDIT007
 #    - rule_id: AUDIT005
 
+projects:
+  sample:
+    project:
+        tags:
+          - base
+          - password
+        ids: []
