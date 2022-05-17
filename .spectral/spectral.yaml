@@ -1,0 +1,13 @@
+projects:
+    AST:
+        project:
+            name: astmaster
+        input:
+            - local: .
+              name: sources
+        rules:
+            include:
+                tags:
+                  - password
+                  - base
+                ids: [AUDIT014]
