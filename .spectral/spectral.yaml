@@ -8,6 +8,6 @@ projects:
         rules:
             include:
                 tags:
-                  - password
-                  - base
-                ids: [AUDIT014]
+                    - password
+                    - base
+                ids: [AUDIT004]
