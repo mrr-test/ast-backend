@@ -1,6 +1,6 @@
 match_ignores:
   ignores:
-    - path: pkg/*
-    - rule_id: AUDIT007
+    - path: src/main/*
+#    - rule_id: AUDIT007
 #    - rule_id: AUDIT005
 
