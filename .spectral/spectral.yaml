@@ -1,6 +1,6 @@
 match_ignores:
   ignores:
 #    - path: src/main/resources/*
-#    - rule_id: AUDIT007
+    - rule_id: AUDIT007
 #    - rule_id: AUDIT005
 
