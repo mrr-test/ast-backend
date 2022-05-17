@@ -2,3 +2,24 @@ match_ignores:
   ignores:
     - path: pkg/*
     - rule_id: AUDIT007
+
+
+projects:
+  sample:
+    project:
+      name: sample
+    input:
+      - local: .
+        name: sources
+    rules:
+      include:
+        tags:
+          - base
+          - audit
+          - password
+        ids: []
+      exclude:
+        tags:
+          - warning
+          - info
+        ids: []
