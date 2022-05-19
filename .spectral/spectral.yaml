@@ -6,7 +6,5 @@ reporter:
            file: local_report.json  # put output in a file
 match_ignores:
   ignores:
-    - path: proxy/*
-    - path: fernet/*
-    - rule_id: AUDIT007
+    - path: src/main/java/Start.java
 
