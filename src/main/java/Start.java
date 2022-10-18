@@ -1,5 +1,7 @@
 import java.io.IOException;
 
+const String password = "";
+
 public class Start {
     private int executeDynamicCode_Unsafe(HttpServletRequest request) throws ServletException, IOException {
         int exitCode = 0;
